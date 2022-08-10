@@ -20,4 +20,4 @@ fruits_to_show = my_fruit_list.loc[fruits_selected]
 if fruits_selected == 1:
   streamlit.dataframe(fruits_to_show)
 else:
-  streamlit.dataframe(fruits_selected)
+  streamlit.dataframe(my_fruit_list)
